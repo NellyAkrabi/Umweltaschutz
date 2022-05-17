@@ -116,10 +116,10 @@ img {
     text-shadow: rgba(171, 169, 169, 0.877) 3px 3px 2px;
     border-radius: 25px;
 }
-.du-link:hover {
-    color: #ffe26d;
+.Umwelthilfe >a:hover {
+    color: #fede5e;
 }
-.Umwelthilfe > a:visited{
+.du-link:visited{
     color: #9a3495;
 }
 
