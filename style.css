@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-left:10%;
+    margin-right: 10%;
+    padding: 0;
+    font-size: 62,5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Block1 */
+header > div {
+    padding: 20px;
+    position: relative;
+    height: 150px;
+    width: 100%;
+   
+}
+
+.fa-brands {
+    color: #505428d4;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.nav_text{
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    color: #505428d4;
+}
+
+.block1 {
+    height: 550px;
+    background-color: #5054288a;
+    background-image: url(/img/BG-IMG.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    left: 13%;
+    font-size: 2rem; 
+    color:#fff9ead9;
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: rgba(97, 97, 97, 0.877) 2px 5px 4px;
+}
+img {
+    width: 100%;
+    opacity: 90%;
+}
+
+/* bloks */
+
+.block {
+    display: inline-block;
+    height: 60vh;
+    width: 32.5%;
+    margin-top: 40px;
+    padding: 35px;
+    text-align: center;
+    
+    
+}
+.block > h2 {
+    text-decoration: none;
+    color: #505428;  
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;   
+}
+
+.block > h2 {
+    margin-top: 50px; 
+}
+.block > a > img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(97, 97, 97, 0.877) 2px 5px 9px;
+}
+.block > p {
+    margin-top: 20px;
+    color: #505428;  
+}
+/* FOOTER */
+.Umwelthilfe {
+    margin-top: 60px;
+    padding-top: 50px;
+    height: 350px;
+    text-align: center;
+    background-color: #a3cd65e9;
+    
+}
+.du-link {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 40px;  
+    font-weight: bold;
+    color: #A4D765;
+    padding: 20px;
+    text-shadow: rgba(171, 169, 169, 0.877) 3px 3px 2px;
+    border-radius: 25px;
+}
+.du-link:hover {
+    color: #ffe26d;
+}
+.Umwelthilfe > a:visited{
+    color: #9a3495;
+}
+
+.Umwelthilfe > h3 {
+    font-size: 2rem;
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    color:#fff9eaec;
+    padding: 35px;
+}
+footer {
+    text-align: center;
+    margin: 20px;
+}
